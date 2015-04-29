@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "TagPro Debugger",
+  "short_name": "TP Debugger",
+  "version": "0.2.2",
+  "description": "This extension allows troubleshooting the minified TagPro JS",
+  "background": {
+    "scripts": ["js/background.js"]
+  },
+  "permissions": [
+    "*://*/*",
+    "tabs",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "web_accessible_resources": [
+    "js/global-game.js"
+  ]
+}
